@@ -4,21 +4,20 @@
  GND to arduino GND
  Echo to Arduino pin 7 
  Trig to Arduino pin 8
- 
+ */
  This sketch originates from Virtualmix: http://goo.gl/kJ8Gl
  Has been modified by Winkle ink here: http://winkleink.blogspot.com.au/2012/05/arduino-hc-sr04-ultrasonic-distance.html
  And modified further by ScottC here: http://arduinobasics.blogspot.com.au/2012/11/arduinobasics-hc-sr04-ultrasonic-sensor.html
  on 10 Nov 2012.
- */
+*/
 
 
-#define trigPin 2 // Trigger Pin
-#define echoPin 3 // Echo Pin
+#define trigPin 2      // Trigger Pin
+#define echoPin 3    // Echo Pin
 #define yellowLED 7 // warning
 #define redLED 6 // red
 #define IRoutputPin 4 // IR output
 #define LEDsignalPin 5 // led input signal
-
 
 int maximumRange = 100; // Maximum range needed
 int minimumRange = 0; // Minimum range needed
@@ -119,8 +118,6 @@ while (consistency[0] <= greenDistance)
      }
     
   }
- 
 }  
-      
 }
-}
+}\
